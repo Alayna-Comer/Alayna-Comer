@@ -1,0 +1,103 @@
+@charset "utf-8";
+html{
+	font: 15px Candara, sans-serif;
+}
+
+body {
+	background-color: pink;
+	font-size:18px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 200px;
+	margin-left: 200px
+	
+}
+
+.background2 {
+	background-color: violet;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	padding-left: 48px;
+	padding-right: 48px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 25px;
+	border:3px solid yellow;
+}
+
+dl {
+	list-style-type: none;
+	text-align: center;
+}
+
+.HeaderImage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("ColorWheel_Header1.png");
+	background-repeat: no-repeat;
+	width: 40%;
+}
+
+.Border1 {
+	float: left;
+	border-style: dotted;
+	border-color: white;
+	border-width: 1px;
+}
+
+.Image1 {
+	float: right;
+}
+
+.Image2 {
+	height:150px;
+	width: 150px;
+	padding:20px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+
+.Image3 {
+	height:200px;
+	width:220px;
+	padding:50px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+
+.Image4 {
+	height:250px;
+	width:260px;
+	padding:20px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+
+.Image5 {
+	float: right;
+	margin-bottom: 20px;
+}
+
+.Image6 {
+	float: right;
+}
+
+footer {
+	position: fixed;
+	text-align: center;
+    bottom:0px;
+}
